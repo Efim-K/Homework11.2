@@ -1,3 +1,8 @@
 def output_text_capital(text):
-    """ фукция возврата текста заглавными буквами"""
+    """Преобразование строки к верхнему регистру"""
     return text.upper()
+
+
+def output_text_title(text):
+    """ Первую букву каждого слова переводит в верхний регистр"""
+    return text.title()
